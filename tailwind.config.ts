@@ -52,6 +52,27 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Medical status colors
+				normal: {
+					DEFAULT: 'hsl(var(--normal))',
+					foreground: 'hsl(var(--normal-foreground))'
+				},
+				'warning-low': {
+					DEFAULT: 'hsl(var(--warning-low))',
+					foreground: 'hsl(var(--warning-low-foreground))'
+				},
+				'warning-high': {
+					DEFAULT: 'hsl(var(--warning-high))',
+					foreground: 'hsl(var(--warning-high-foreground))'
+				},
+				critical: {
+					DEFAULT: 'hsl(var(--critical))',
+					foreground: 'hsl(var(--critical-foreground))'
+				},
+				glucose: {
+					bg: 'hsl(var(--glucose-bg))',
+					text: 'hsl(var(--glucose-text))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
