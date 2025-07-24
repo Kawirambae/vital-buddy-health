@@ -37,10 +37,10 @@ const Index = () => {
               <Activity className="h-12 w-12 text-primary" />
             </div>
           </div>
-          <h1 className="text-5xl font-bold text-foreground mb-4">
+          <h1 className="text-5xl font-bold text-white mb-4">
             SukariSafe
           </h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl text-white max-w-2xl mx-auto">
             Real-time blood glucose monitoring with intelligent alerts and emergency notifications.
             Stay in control of your health with precision monitoring every 5 minutes.
           </p>
