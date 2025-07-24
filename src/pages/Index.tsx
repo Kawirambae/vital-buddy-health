@@ -38,7 +38,7 @@ const Index = () => {
             </div>
           </div>
           <h1 className="text-5xl font-bold text-foreground mb-4">
-            Diabetes Monitor
+            SukariSafe
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Real-time blood glucose monitoring with intelligent alerts and emergency notifications.
