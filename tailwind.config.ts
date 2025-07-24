@@ -73,6 +73,10 @@ export default {
 					bg: 'hsl(var(--glucose-bg))',
 					text: 'hsl(var(--glucose-text))'
 				},
+				'dark-green': {
+					DEFAULT: 'hsl(var(--dark-green))',
+					foreground: 'hsl(var(--dark-green-foreground))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
