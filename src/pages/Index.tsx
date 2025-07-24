@@ -5,7 +5,30 @@ import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background to-muted">
+    <div className="min-h-screen bg-gradient-to-br from-background to-muted relative overflow-hidden">
+      {/* Animated Background Elements */}
+      <div className="absolute inset-0 pointer-events-none">
+        {/* Floating glucose molecules */}
+        <div className="absolute top-20 left-10 w-8 h-8 bg-primary/10 rounded-full animate-bounce" style={{animationDelay: '0s', animationDuration: '3s'}}></div>
+        <div className="absolute top-40 right-20 w-6 h-6 bg-normal/20 rounded-full animate-bounce" style={{animationDelay: '1s', animationDuration: '4s'}}></div>
+        <div className="absolute bottom-32 left-1/4 w-10 h-10 bg-primary/5 rounded-full animate-bounce" style={{animationDelay: '2s', animationDuration: '5s'}}></div>
+        <div className="absolute top-1/3 right-1/3 w-4 h-4 bg-accent/30 rounded-full animate-bounce" style={{animationDelay: '0.5s', animationDuration: '3.5s'}}></div>
+        <div className="absolute bottom-20 right-10 w-12 h-12 bg-primary/8 rounded-full animate-bounce" style={{animationDelay: '1.5s', animationDuration: '4.5s'}}></div>
+        
+        {/* Floating medical icons */}
+        <div className="absolute top-1/4 left-1/3 opacity-10 animate-pulse" style={{animationDelay: '0s', animationDuration: '2s'}}>
+          <Activity className="h-6 w-6 text-primary" />
+        </div>
+        <div className="absolute bottom-1/3 right-1/4 opacity-10 animate-pulse" style={{animationDelay: '1s', animationDuration: '3s'}}>
+          <Shield className="h-8 w-8 text-normal" />
+        </div>
+        <div className="absolute top-1/2 left-1/6 opacity-10 animate-pulse" style={{animationDelay: '2s', animationDuration: '2.5s'}}>
+          <BarChart3 className="h-5 w-5 text-primary" />
+        </div>
+        
+        {/* Subtle grid pattern */}
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(0,0,0,.1)_1px,transparent_1px),linear-gradient(90deg,rgba(0,0,0,.1)_1px,transparent_1px)] bg-[size:50px_50px] opacity-5"></div>
+      </div>
       {/* Hero Section */}
       <div className="container mx-auto px-4 py-16">
         <div className="text-center space-y-6 mb-16">
